@@ -1,3 +1,4 @@
+@media (width>600px) {
 body{
     background: rgb(5,177,245);
     background: linear-gradient(90deg, rgba(5,177,245,1) 35%, rgba(236,236,236,1) 100%);
@@ -203,6 +204,7 @@ a{
 }
 .btnbtn{
     display: flex;
+}
 }
 @media (width<600px) {
     body{
