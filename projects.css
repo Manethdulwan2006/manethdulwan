@@ -1,0 +1,35 @@
+@media screen and (max-width: 2000px){
+.down{
+    position:absolute;
+    left: 330px;
+    margin-top: 220px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid rgb(52, 68, 79);
+    background-color:  rgb(5,177,245);
+
+}
+.down:hover{
+    border: 5px solid rgb(13, 195, 25);
+    color: white;
+    background-color: black;
+    transition: 1.0s;
+}
+}
+@media screen and (max-width: 600px) {
+    .down{
+        position:absolute;
+        left: 230px;
+        margin-top: 190px;
+        padding: 10px;
+        border-radius: 30px;
+        border: 3px solid rgb(52, 68, 79);
+        background-color:  rgb(5,177,245);
+    
+    }
+    .down:hover{
+        border: 5px solid rgb(13, 195, 25);
+        color: white;
+        background-color: black;
+        transition: 1.0s;
+}
