@@ -19,8 +19,8 @@
 @media screen and (max-width: 600px) {
     .down{
         position:absolute;
-        left: 230px;
-        margin-top: 190px;
+        left: 200px;
+        margin-top: 180px;
         padding: 10px;
         border-radius: 30px;
         border: 3px solid rgb(52, 68, 79);
