@@ -204,7 +204,7 @@ a{
 .btnbtn{
     display: flex;
 }
-@media (width<800px) {
+@media (width<600px) {
     body{
         background: rgb(5,177,245);
         background: linear-gradient(90deg, rgba(5,177,245,1) 35%, rgba(236,236,236,1) 100%);
@@ -217,7 +217,7 @@ a{
         display: flex;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         border-radius: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         border: 5px solid rgb(52, 68, 79);
         
     }
