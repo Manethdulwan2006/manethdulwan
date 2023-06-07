@@ -67,6 +67,11 @@ a{
     color: rgb(52, 68, 79);
     font-weight: bolder;
 }
+.its{
+    text-align: center;
+    display: flex;
+    margin-left: 150px;
+}
 .name{
     text-align: center;
 }
