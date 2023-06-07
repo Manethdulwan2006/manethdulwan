@@ -276,6 +276,8 @@ a{
     }
     .photo1{
         visibility: hidden;
+        width: 0px;
+        height: 0px;
     }
     .log{
         text-align:end;
