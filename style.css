@@ -141,7 +141,13 @@ a{
     padding: 20px;
     border-radius:40px;
     border: 3px solid rgb(52, 68, 79);
-    
+
+}
+.lms121{
+    width:400px;
+    padding: 10px;
+    border-radius:40px;
+    border: 3px solid rgb(52, 68, 79);
 }
 .space{
     color: rgb(5,177,245);
@@ -402,6 +408,15 @@ a{
         margin: 0px;
         text-align: center;
         
+    }
+    .lms121{
+         width: 300px;
+        height: 210px;
+        border-radius:40px;
+        border: 3px solid rgb(52, 68, 79);
+        margin: 0px;
+        text-align: center;
+
     }
     .photobtn{
         justify-content: center;
