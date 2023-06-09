@@ -3,6 +3,68 @@ body{
     background: rgb(5,177,245);
     background: linear-gradient(90deg, rgba(5,177,245,1) 35%, rgba(236,236,236,1) 100%);
 }
+
+
+
+.resultbox ul{
+    margin-left: auto;
+    padding-left: 150px;
+    position: sticky;
+    text-align: center;
+    padding-right: 150px;
+    margin-right: auto;
+    width: 150px;
+}
+.resultbox ul li{
+    list-style: none;
+    margin: 5PX;
+    margin-top: -13PX;
+    margin-left: -126px;
+    width: 400px;
+    padding: 5PX;
+    color: rgb(52, 68, 79);
+    text-align: center;
+    cursor: pointer;
+    border: 3PX solid rgb(52, 68, 79);
+    border-radius: 30PX;
+    position:relative;
+}
+.resultbox ul li:hover{
+    border: 2px solid rgb(13, 195, 25);
+    color: white;
+    background-color: black;
+    transition: 1.0s;
+}
+.gg{
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: auto;
+    padding-left: 150px;
+    position: sticky;
+    text-align: center;
+    padding-right: 150px;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.ll{
+    display: flex;
+    position:sticky;
+    margin-left: 10px;
+    
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgb(5,177,245);
+    color: white;
+    border: 2px solid rgb(52, 68, 79) solid rgb(52, 68, 79);
+    margin-bottom: 10px;
+}
+.ll:hover{
+    border: 2px solid rgb(52, 68, 79) solid rgb(13, 195, 25);
+    color: white;
+    background-color: black;
+    transition: 1.0s;
+}
 .together{
     display: flex;
     justify-content: center;
@@ -270,6 +332,33 @@ a{
         background: linear-gradient(90deg, rgba(5,177,245,1) 35%, rgba(236,236,236,1) 100%);
         position:sticky;
     }
+    li{
+        display: flex;
+        padding: 10px;
+        border-radius: 30px;
+        margin-left: auto;
+        padding-left: 10px;
+        position: sticky;
+
+        text-align: center;
+        padding-right: 10px;
+        margin-right: auto;
+    }
+    .gg{
+        display: flex;
+        padding: 10px;
+        border-radius: 30px;
+        margin-left: auto;
+        padding-left: 10px;
+        position: sticky;
+
+        text-align: center;
+        padding-right: 10px;
+        margin-right: auto;
+    }
+    .ll{
+        visibility: hidden;
+    }
     .btns{
         padding: 10px;
         margin-left: -130px;
@@ -344,7 +433,8 @@ a{
         font-size: 9px;
         border-radius: 10px;
         visibility: hidden;
-        border: 2px solid rgb(52, 68, 79);
+        border: 2px solid
+ rgb(52, 68, 79) solid rgb(52, 68, 79);
     }
     .btn2{
         background: rgb(5,177,245);
@@ -354,7 +444,8 @@ a{
         border-radius: 10px;
         visibility: hidden;
         text-decoration: none;
-        border: 2px solid rgb(52, 68, 79);
+        border: 2px solid
+ rgb(52, 68, 79) solid rgb(52, 68, 79);
     }
     a{
         text-decoration: none;
@@ -406,6 +497,8 @@ a{
         border-radius: 30px;
         border: 4px solid rgb(52, 68, 79);
     }
+
+    
     .about21{
         margin-top: 100px;
         margin-left:auto;
@@ -424,6 +517,19 @@ a{
     }
     .allone{
         text-align: center;
+    }
+    .resultbox ul li{
+        list-style: none;
+        margin: 0PX;
+        margin-top: -13PX;
+        margin-left: -126px;
+        width: 300px;
+        padding: 5PX;
+        text-align: center;
+        cursor: pointer;
+        border: 3PX solid rgb(52, 68, 79);
+        border-radius: 30PX;
+        position:sticky;
     }
     .lms{
         width: 300px;
