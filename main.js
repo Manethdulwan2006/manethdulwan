@@ -39,3 +39,4 @@ function display(result){
  function performSearch(query) {
     return ['Result 1', 'Result 2', 'Result 3'];
   }
+  
